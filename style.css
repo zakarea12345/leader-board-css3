@@ -202,7 +202,10 @@
  /*------------------------
        media queries 
        --------------------------*/
-       @media (max-width:640px) {
+       @media (max-width:550px) {
+           header{
+               width: 100%;
+           }
            .players{
                display: flex;
                flex-direction: column;
